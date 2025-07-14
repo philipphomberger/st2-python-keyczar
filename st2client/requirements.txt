@@ -26,3 +26,4 @@ six==1.16.0
 sseclient-py==1.7
 typing-extensions==4.8.0
 zipp<3.16.0
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
