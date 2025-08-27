@@ -6,3 +6,7 @@
 # in-requirements.txt for that component and then run 'make requirements' to
 # update the component requirements.txt
 orquesta@ git+https://github.com/philipphomberger/orquesta.git@feature/3.9
+eventlet>=0.37.0 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
+ujson>=5.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+yaql>=3.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
